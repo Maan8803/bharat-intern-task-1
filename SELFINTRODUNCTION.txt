@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #120e0e;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ecf2f4;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1, h2, h3 {
+            margin: 0;
+        }
+        
+        p {
+            margin-top: 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .name {
+            font-size: 30px;
+            color: #df3131;
+            margin-bottom: 10px;
+        }
+        
+        .job-title {
+            font-size: 20px;
+            color: #73ec83;
+        }
+        
+        .about-me {
+            margin-bottom: 30px;
+            color:rgb(27, 210, 79);
+        }
+        
+        .skills {
+            margin-bottom: 30px;
+            color:darkgreen;
+        }
+        
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            color:rgb(182, 40, 146);
+        }
+        
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: #e9f1f422;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+        .projects {
+            margin-bottom: 30px;
+            color:brown;
+        }
+        
+        .projects h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .projects p {
+            margin-bottom: 5px;
+        }
+        
+        .contact {
+            text-align: center;
+            color:chocolate;
+        }
+        
+        .contact p {
+            margin-bottom: 10px;
+            color:rgb(108, 37, 195);
+        }
+        
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            color:crimson;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="name">SATYWAN</h1>
+            <h2 class="job-title">Web Developer</h2>
+        </div>
+        
+        <div class="about-me">
+            <h3>About Me</h3>
+            <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy creating responsive and user-friendly websites.</p>
+        </div>
+        
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+        
+        <div class="projects">
+            <h3>Projects</h3>
+            <p>Project 1: Create Temperature converter using CSS,HTML & JS.</p>
+            <p>Project 2: create homepage of NETFLIX using CSS,HTML & JS</p>
+        </div>
+        
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:youremail@example.com">satyammann8803@gmail.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+91 8168320720</a></p>
+        </div>
+    </div>
+</body>
+</html>
